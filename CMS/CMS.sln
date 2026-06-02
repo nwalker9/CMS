@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.CMS", "Library.CMS\Library.CMS.csproj", "{CB16D295-613A-498F-BDCB-553268314F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLI.CMS", "CLI.CMS\CLI.CMS.csproj", "{5E7C129E-156E-F571-8532-1AEBBB323D32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB16D295-613A-498F-BDCB-553268314F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB16D295-613A-498F-BDCB-553268314F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB16D295-613A-498F-BDCB-553268314F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB16D295-613A-498F-BDCB-553268314F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7C129E-156E-F571-8532-1AEBBB323D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7C129E-156E-F571-8532-1AEBBB323D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7C129E-156E-F571-8532-1AEBBB323D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7C129E-156E-F571-8532-1AEBBB323D32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A900E65-A6FE-43DA-963A-AA734F98E583}
+	EndGlobalSection
+EndGlobal

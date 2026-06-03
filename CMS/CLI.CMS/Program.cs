@@ -1,6 +1,7 @@
 ﻿using System;
+using Library.CMS.Models;
 
-namespace MyApp
+namespace CMS
 {
     internal class Program
     {
@@ -10,11 +11,9 @@ namespace MyApp
 
             Console.WriteLine("Choose a site to manage: ");
 
-            List<string> sites = new List<string>
+            List<Site> sites = new List<Site>
             {
-                "Site 1",
-                "Site 2",
-                "Site 3"
+                new Site{Name = "Site 1"},
             };
             
             int count = 0;
@@ -28,7 +27,9 @@ namespace MyApp
                 Console.WriteLine(selection);
 
 
-                var match = sites.FirstOrDefault(s => s.Equals(selection, StringComparison.InvariantCultureIgnoreCase));
+                var match = sites.FirstOrDefault(s => s?.Name?.Equals(selection, StringComparison.InvariantCultureIgnoreCase)
+                ?? false
+                );
 
                 if (match != null)
                 {
